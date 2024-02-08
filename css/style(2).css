@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.logo{
+    background-color:rgb(59, 5, 65);
+    color:white;
+    text-align: center;
+    height: 100px;
+}
+.navigation{
+    background-color:aqua;
+    color:white;
+    text-align: center;
+    height:500px;
+}
+.header{
+    width: 100%;
+    height: 400px;
+    background-color: brown;
+    text-align: center;
+    color: white;
+}
+.content{ 
+       display: flex;
+}
+.content_one{
+    width: 25%;
+    height: 300px;
+    background-color:blueviolet;
+    text-align: center;
+    color:burlywood;
+}
+.main_content{
+    width: 50%;
+    height: 300px;
+    background-color: teal;
+    text-align: center;
+    color:white;
+}
+.content_two{
+    width: 25%;
+    height: 300px;
+    background-color: red;
+    text-align: center;
+    color: black;
+}
+
+.footer{
+    height: 80px;
+    background-color: chartreuse;
+    text-align: center;
+    color: crimson;
+}
+
+
