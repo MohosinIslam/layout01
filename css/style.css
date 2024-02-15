@@ -1,56 +1,135 @@
 *{
     margin: 0;
     padding: 0;
+    /* padding: 30px 0; */
 }
-.logo{
-    background-color:rgb(59, 5, 65);
-    color:white;
-    text-align: center;
-    height: 100px;
+/*font-family: playfair Display;serif;
+font-family:ubuntu Sans-serif;*/
+header{
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin-left: 5%;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
-.navigation{
-    background-color:aqua;
-    color:white;
-    text-align: center;
-    height:500px;
+.logo {
+width: 20%;
 }
-.header{
-    width: 100%;
-    height: 400px;
-    background-color: brown;
-    text-align: center;
-    color: white;
+nav{
+width: 50%;
 }
-.content{ 
-       display: flex;
+header nav ul{
+    display: flex;
+    list-style: none;
+    justify-content:end ;
 }
-.content_one{
-    width: 25%;
-    height: 300px;
-    background-color:blueviolet;
-    text-align: center;
-    color:burlywood;
+header nav ul li{
+margin-left: 50px;
 }
-.main_content{
-    width: 50%;
-    height: 300px;
-    background-color: teal;
-    text-align: center;
-    color:white;
+header nav ul li a{
+    text-decoration: none;
+    color: #626262;
+    text-transform: uppercase;
 }
-.content_two{
-    width: 25%;
-    height: 300px;
-    background-color: red;
-    text-align: center;
-    color: black;
+.banner_section{
+    width: 90%;
+    margin-left: 5%;
+    }
+.banner_section img{
+        width: 100%;
+    }
+.photodairy{
+width: 80%;
+margin: auto;
+margin-top: 70px;
+margin-bottom: 70px;
+color: #626262;
 }
+.photodairy h1{
+color:#626262;
+font-weight: 400;
+font-size: 30px;
+text-transform:capitalize;
+margin-bottom: 15px;
 
-.footer{
-    height: 80px;
-    background-color: chartreuse;
-    text-align: center;
-    color: crimson;
 }
+photodairy h5{
+    color: #b4ad9e;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 14px;
+    margin-bottom: 15px;
+}
+.photodairy p{
+    color: #626262;
+    margin-bottom: 15px;
+    font-size: 14px;
 
+}
+.photodairy h6{
+    color: #b4ad9e;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 14px;
+    margin-bottom: 15px;
 
+}
+.feature_section{
+width: 80%;
+margin: auto;
+display: flex;
+justify-content: space-between;
+flex-wrap: wrap ;
+}
+.feature_item{
+width: 48%;
+margin-bottom: 70px ;
+}
+.future_item img{
+width: 100%;
+margin-bottom: 15px;
+}
+.future_item h1{
+    color:#626262;
+    font-weight: 400;
+    font-size: 30px;
+    text-transform:capitalize;
+    margin-bottom: 15px;
+}
+.future_item h5{
+    color: #b4ad9e;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 14px;
+    margin-bottom: 15px;
+}
+.future_item p{
+    color: #626262;
+    margin-bottom: 15px;
+    font-size: 14px;
+}
+.newsleter{
+background: #f0f0f0;
+padding: 70px 0;
+}
+.content{
+width: 27%;
+margin: auto;
+}
+.content h2{
+    color:#626262;
+    font-weight: 400;
+    font-size: 30px;
+    text-transform:capitalize;
+    margin-bottom: 50px;
+}
+.content input{
+border: none;
+border-bottom: 1px solid #000;
+width: 100%;
+background: transparent;
+}
+.content input:focus{
+    outline: none;
+}
